@@ -1,2 +1,2 @@
-alias ll="ls -lah"
-PATH=$PATH:~/bin/
+# Source .bashrc for the sake of consolidating this all
+source .bashrc
