@@ -37,7 +37,7 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-export PS1='`date +%m/%d\ %H:%M` \[\033[0;34m\]❨\[\033[0m\] \[\033[0;34m\]❩ \[\033[0;36m\]❱\[\033[0m\]'
+export PS1='`date +%m/%d\ %H:%M` \[\033[0;34m\]❨\[\033[0m\]`hostname`\[\033[0;34m\] ❩ \[\033[0;36m\]❱\[\033[0m\]'
 
 # some more ls aliases
 alias ll='ls -alF'
