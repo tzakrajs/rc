@@ -72,3 +72,5 @@ fi
 export P4CONFIG=.p4
 
 PATH=~/bin:/opt/local/bin:$PATH
+
+source ~/.bashrc.local
