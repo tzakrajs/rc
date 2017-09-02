@@ -1,5 +1,6 @@
-for i in `ls -a ~/rc`; do
+path=$(echo $0|sed -e 's/setup.sh//')
+for i in `ls -a $path`; do
   if [[ "$i" != "setup.sh" && "$i" != "." && "$i" != ".." ]]; then
-    ln -s ~/rc/$i ~/$i
+    ln -s $path$i ~/$i
   fi
 done
